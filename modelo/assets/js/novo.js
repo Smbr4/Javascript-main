@@ -14,6 +14,7 @@ function calculo(){
 
     if (!a || !p){
         mostrar.innerHTML=`Por favor, inserir os dados corretamente`;
+        mostrar.classList.add('erro');
         return;
     }
 

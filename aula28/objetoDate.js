@@ -40,7 +40,8 @@ function formataData(data){
     const minuto =  zeroEsquerda (data.getMinutes());
     const segundo =  zeroEsquerda (data.getSeconds());
 
-    return `${dia}/${mes}/${ano}  ${hora}:${minuto}:${segundo}`}
+    return `${dia}/${mes}/${ano}  ${hora}:${minuto}:${segundo}`
+}
 
 const data = new Date();
 const dataBrasil = formataData(data); 

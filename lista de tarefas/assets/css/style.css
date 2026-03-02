@@ -72,10 +72,52 @@ form button{
     cursor: pointer;
 }
 
-form button:hover{
+p button:hover{
+    background: var(--primary-color-darker);
+}
+p input, p label, p button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+p input{
+    font-size: 20px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+p input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+p button{
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+
+p button:hover{
     background: var(--primary-color-darker);
 }
 
-.relogio{
-    font-size: 3em;
+li {   
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.apagar{
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    height: 30px;
+    cursor: pointer;
+    margin: 15px;
 }

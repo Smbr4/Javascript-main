@@ -90,5 +90,5 @@ function adicionarSalvas(){
     }
 }
 
-
+// é responsável por guardar os itens da lista quando a página for atualizada
 adicionarSalvas();
